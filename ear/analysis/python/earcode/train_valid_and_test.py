@@ -1,7 +1,5 @@
 from AADdataset import AADdataset_1point,AADdataset_1second
 from torch.utils.data import DataLoader
-from model_2D import DenseNet_2D
-from model_3D import DenseNet_3D,CNN_3D
 from model import EEG_STANet,EEG_TANet,EEG_SANet,CNN_baseline
 import tqdm
 import torch
