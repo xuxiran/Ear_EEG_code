@@ -1,7 +1,7 @@
 # Ear_EEG_code
 Guidence
 
-(1) Download raw data from https://zenodo.org/records/10803261
+(1) Download raw data from https://zenodo.org/records/10803261 and copy it to the file rawdata
 
 (2) Run allcode.m in Matlab
 
