@@ -1,5 +1,6 @@
 from AADdataset import AADdataset_1point,AADdataset_1second
 from torch.utils.data import DataLoader
+
 from model import EEG_STANet,EEG_TANet,EEG_SANet,CNN_baseline
 import tqdm
 import torch
@@ -22,18 +23,8 @@ def train_valid_model(eegdata, eeglabel, sb, fold):
 
 # ----------------------initial model------------------------
 
-    model_2D = DenseNet_2D().to(cfg.device)
-
-    train_dataset = AADdataset_1point(x_train, y_train)
-    valid_dataset = AADdataset_1point(x_valid, y_valid)
-
-    train_loader = DataLoader(dataset=train_dataset, batch_size=cfg.batch_size, shuffle=True)
-    valid_loader = DataLoader(dataset=valid_dataset, batch_size=cfg.batch_size, shuffle=True)
-
-    # set the criterion and optimizer
-    criterion = nn.CrossEntropyLoss()
-    optimizer_2D = torch.optim.AdamW(model_2D.parameters(), lr=cfg.lr, weight_decay=cfg.weight_decay)
-
+    
+   
 
 
     valid_loss_min = 100
