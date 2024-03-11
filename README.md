@@ -1,8 +1,12 @@
 # Ear_EEG_code
 Guidence
+
 (1) Download raw data from https://zenodo.org/records/10803261
+
 (2) Run allcode.m in Matlab
+
 (3) Run python code to do ASAD
+
 (4) Statistic_analysis
 
 
