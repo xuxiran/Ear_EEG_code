@@ -3,7 +3,7 @@ Guidence
 
 (1) Download raw data from https://zenodo.org/records/10803261 and copy it to the file rawdata
 
-(2) Run allcode.m in Matlab
+(2) Run allcode.m in Matlab (you should add EEGLAB to Matlab PATH)
 
 (3) Run python code to do ASAD
 
