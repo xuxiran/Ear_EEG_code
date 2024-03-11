@@ -1,4 +1,10 @@
 # Ear_EEG_code
+Guidence
+(1) Download raw data from https://zenodo.org/records/10803261
+(2) Run allcode.m in Matlab
+(3) Run python code to do ASAD
+(4) Statistic_analysis
+
 
 File Structure
 
@@ -28,6 +34,6 @@ File Structure
         * no file now: you could get the data after runing cuteeg.m
       
       --rawdata
-        * no file now: The raw data was released. Please download raw data from the following link:https://zenodo.org/records/10803261
+        * no file now: The raw data was released. Please download raw data from the following link: https://zenodo.org/records/10803261
       
       --allcode.m: To help you run our code, you could run "allcode.m" to do everything before ASAD (ASAD is python code rather than matlab code).
