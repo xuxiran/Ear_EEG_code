@@ -1,7 +1,9 @@
 # Ear_EEG_code
 
 File Structure
+
 --ear
+      
       --analysis
          
           --matlab
